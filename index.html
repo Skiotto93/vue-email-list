@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue email list</title>
+        <!-- CSS link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Vue cdn script -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <!-- Axios cdn script -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div id="app" class="container">
+            <ul>
+                <li class="list" v-for="email in emails">
+                    <span>{{ email }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

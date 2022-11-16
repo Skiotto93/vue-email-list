@@ -1,0 +1,22 @@
+/*---------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*---------------
+    CONTAINER
+---------------*/
+.container {
+    max-width: 25rem;
+    margin: auto;
+    background-color: #ddd;
+}
+.list {
+    list-style: none;
+    padding: .3125rem 1.25rem;
+    color: white;
+    font-size: 18px;
+}
