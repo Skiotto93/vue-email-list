@@ -9,6 +9,10 @@
 /*---------------
     CONTAINER
 ---------------*/
+body {
+    height: 100vh;
+    display: flex;
+}
 .container {
     max-width: 25rem;
     margin: auto;
